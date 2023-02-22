@@ -1,0 +1,118 @@
+@media screen and (max-width:991px){
+    .nav-toggle{
+        display: block;
+        margin-right: 20px;
+    }
+    .nav-links{
+       position: absolute;
+       background-color: white;
+       left:-100%;
+       top:100%;
+       width:100%;
+       padding-block:20px;
+       
+    }
+    .nav-links.active{
+      left:0;
+
+    }
+
+    .nav-links ul{
+      flex-direction: column;
+    }
+    .main-nav{
+      overflow: initial;
+    }
+    .logo{
+    height: 200px;
+    width: 150px;
+    border-radius: 6px;
+   
+    
+}
+.button-wp{
+    
+   margin-top: 20px;
+   margin-left: 320px;
+   width: 300px;
+   text-align: center;
+
+}
+.border1{
+    border:1px solid rgb(35, 2, 254);
+   
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+.border3{
+    border:1px solid rgb(255, 0, 140);
+   
+    border-radius: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+
+
+}
+.pad{
+    padding-top: 0px;
+
+    padding-bottom: 30px;
+    
+    
+    
+}
+    
+}
+@media screen and (max-width: 767px){
+
+    .primary-button{
+        width:100%;
+    }
+
+    .header-section{
+       flex-direction: column-reverse;
+       gap: 50px;
+    }
+
+    .header-left{
+        max-width: 100vw;
+        text-align: center;
+
+     }
+
+     .big-feature-container{
+        flex-direction: column;
+        text-align: center;
+     }
+     .feature-desc{
+        text-align:center;
+     }
+     .rev{
+        flex-direction: column-reverse;
+     }
+
+     .logos{
+        min-width: calc(50%-10px);
+     }
+     .logo{
+        height: 250px;
+        width: 200px;
+
+     }
+     .hide{
+        display: none;
+     }
+     .c{
+        text-align: center;
+     }
+
+     .button-wp{
+        width:100%;
+        margin-left: 0;
+     }
+    
+}
